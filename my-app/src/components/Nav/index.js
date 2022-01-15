@@ -2,31 +2,29 @@ import React from 'react';
 //import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav(props) {
-    const {
-        contactSelected,
-        setContactSelected
-    } = props;
-
+    const tabs = ['Homepage', 'About', 'Projects', 'Contact'];
     return (
-        <nav>
-            <ul className="flex-row">
-                <li className="mx-2">
-                    <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-                        About Me</a>
-                </li>
-                <li>
-                    <a data-testid="projects" href="#projects" onClick={() => setContactSelected(false)}>
-                        Projects
-                    </a>
-                </li>
-                <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-                    <span onClick={() => setContactSelected(true)}>Contact</span>
-
-                </li>
+        <header>
+            <h1>Samantha Heilman</h1>
+            <ul className="nav nav-tabs">
+                {tabs.map(tab => (
+                    <li className="nav-item" key={tab}>
+                        <a
+                            href={'#' + tab.toLowerCase()}
+                            // Whenever a tab is clicked on,
+                            // the current page is set through the handlePageChange props.
+                            onClick={() => props.handlePageChange(tab)}
+                            className={
+                                props.currentPage === tab ? 'nav-link active' : 'nav-link'
+                            }
+                        >
+                            {tab}
+                        </a>
+                    </li>
+                ))}
             </ul>
-        </nav>
+        </header>
     );
-
 }
 
 export default Nav;
