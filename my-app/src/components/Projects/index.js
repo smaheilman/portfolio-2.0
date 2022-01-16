@@ -25,7 +25,7 @@ function Projects() {
             path: 'weather-app-screenshot.jpg',
             link: 'https://smaheilman.github.io/weather-dashboard-challenge-6/',
             description: 'Recieves the weather for the week for whatever location you search for.'
-        },        
+        },
         {
             name: 'Coding Quiz',
             path: 'quiz-screenshot.jpg',
@@ -41,16 +41,20 @@ function Projects() {
     ])
 
     return (
-        <div className="projects container">
-            {projects.map((image)=> (
-              <a href={image.link}>
-                <img className= "col-6" src={require(`../../assets/screenshots/${image.path}`)}
-                  alt={image.name}
-                  key={image.name}
-                  width = '50%'
-                  height= '100%'
-                />
-              </a>
+        <div className="projects container card-deck">
+            <h2 className="proh">Projects</h2>
+            {projects.map((image) => (
+                    <div className="img__wrap col-6 card-block mx-auto">
+                        <img className="work card-block img__img" src={require(`../../assets/screenshots/${image.path}`)}
+                            alt={image.name}
+                            key={image.name}
+                        />
+                        <div className="img__description">
+                            <h3 className="h3img">{image.name}</h3>
+                            <p className="pimg">{image.description}</p>
+                            <a className="imglink" href={image.link}>Link!</a>
+                        </div>
+                    </div>
             ))}
         </div>
     )

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dongle:wght@300&family=Nunito+Sans:wght@200&family=The+Nautigal&display=swap');
+
 * {
   background-color: black;
   color: white;
@@ -9,26 +11,68 @@ html, body{
   min-height: 100%;
 }
 
-.nav, h1{
-  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,240,69,1) 100%);
+.sam{
+  background-image: linear-gradient( 0deg, #f00d46,  rgb(255, 238, 1));
+  background-clip: text;
+  color: transparent;
+  font-family: 'Dancing Script', cursive;
+  margin-left: 1rem;
+  font-size: 8.5rem;
+  padding-right: 65rem;
+  
 }
 
 header {
   display: inline-flex;
+  margin-left: 1rem;
+  justify-content: space-evenly;
 }
 
+a.nav-link{
+  color: white;
+  font-size: 1.5rem;
+}
 
-.nav-item {
-  background-color: turquoise;
+nav{
+  display: block;
+  margin-top: 2.5rem;
+  float: left;
+}
+
+.a.nav-link.active{
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(90deg, rgb(228, 226, 236) 0%, rgb(191, 152, 255) 50%, rgb(98, 0, 255) 100%);
+}
+
+a.nav-link:hover {
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,240,69,1) 100%);
+  border: none;
+  color: white;
+}
+
+ul.navs.nav-tab {
+  list-style-type: none;
+  margin: auto;
+  margin-top: 1rem;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
 }
 
 .home{
-  text-align: center;
+  font-size: 10rem;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.homep {
+  font-size: 1.5rem;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .homepage {
   position: absolute;
   top: 50%;
+  display: inline-block;
 }
 
 footer{
@@ -39,10 +83,91 @@ footer{
   height: 2.5rem;
 }
 
-.projects {
+.card-block{
   padding: 10px;
+  max-height: 100%;
+  min-height: 100%;
+  width: 100%;
+  border-radius: 15px;
 }
 
-img {
-  padding: 10px;
+.img__wrap {
+  position: relative;
+  display: inline-block;
+  font-family: 'Dongle', sans-serif;
+  font-size: 2rem;
+  
 }
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(48, 55, 59, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+  border-radius: 10px;
+
+}
+
+.h3img, .pimg, .imgLink {
+ background-color: unset;
+}
+
+.h3img{
+  font-size: 2.5rem;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.projects{
+  padding: auto;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.proh{
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 4rem;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.imglink{
+  color: unset;
+  background-color: unset;
+  text-decoration: none;
+  font-family: 'Dongle', sans-serif;
+  font-size: 2rem;
+}
+
+.imglink:hover{
+  background-color: white;
+  color: black;
+  font-size: 2.5rem;
+}
+
+#about{
+  font-family: 'Nunito Sans', sans-serif ;
+  font-size: 3rem;
+}
+
+.aboutMe{
+  font-family: 'Dongle', sans-serif ;
+  font-size: 2rem;
+}
+
+.imgMe{
+  border-radius: 30%;
+}
+

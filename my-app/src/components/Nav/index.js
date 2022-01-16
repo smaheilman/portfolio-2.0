@@ -5,16 +5,17 @@ function Nav(props) {
     const tabs = ['Homepage', 'About', 'Projects', 'Contact'];
     return (
         <header>
-            <h1>Samantha Heilman</h1>
-            <ul className="nav nav-tabs">
+            <h1 className='sam'>Sam</h1>
+            <nav className='container'>
+            <ul className="navs nav-tab row">
                 {tabs.map(tab => (
-                    <li className="nav-item" key={tab}>
+                    <li className="nav-item col mx-5" key={tab}>
                         <a
                             href={'#' + tab.toLowerCase()}
                             // Whenever a tab is clicked on,
                             // the current page is set through the handlePageChange props.
                             onClick={() => props.handlePageChange(tab)}
-                            className={
+                            className= {
                                 props.currentPage === tab ? 'nav-link active' : 'nav-link'
                             }
                         >
@@ -23,6 +24,7 @@ function Nav(props) {
                     </li>
                 ))}
             </ul>
+            </nav>
         </header>
     );
 }
