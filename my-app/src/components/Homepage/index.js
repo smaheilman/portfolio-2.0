@@ -3,9 +3,13 @@ import React from "react";
 function Homepage() {
 
     return (
-        <h1>
-            Welcome!
-        </h1>
+        <div className="container homepage">
+            <div className="row">
+                <h1 className="home col-3 mx-auto">
+                    Welcome!
+                </h1>
+            </div>
+        </div>
     )
 
 }
