@@ -4,9 +4,9 @@ import React from 'react';
 function Nav(props) {
     const tabs = ['Homepage', 'About', 'Projects', 'Contact'];
     return (
-        <header>
+        <header className='d-flex'>
             <h1 className='sam'>Sam</h1>
-            <nav className='container'>
+            <nav className='container-fluid'>
             <ul className="navs nav-tab row">
                 {tabs.map(tab => (
                     <li className="nav-item col mx-5" key={tab}>

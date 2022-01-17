@@ -18,12 +18,10 @@ html, body{
   font-family: 'Dancing Script', cursive;
   margin-left: 1rem;
   font-size: 8.5rem;
-  padding-right: 65rem;
   
 }
 
 header {
-  display: inline-flex;
   margin-left: 1rem;
   justify-content: space-evenly;
 }
@@ -31,12 +29,11 @@ header {
 a.nav-link{
   color: white;
   font-size: 1.5rem;
+  float: right;
 }
 
 nav{
-  display: block;
   margin-top: 2.5rem;
-  float: left;
 }
 
 .a.nav-link.active{
@@ -53,7 +50,7 @@ a.nav-link:hover {
 
 ul.navs.nav-tab {
   list-style-type: none;
-  margin: auto;
+  float: right;
   margin-top: 1rem;
   font-family: 'Nunito Sans', sans-serif;
   font-weight: bold;
@@ -71,8 +68,7 @@ ul.navs.nav-tab {
 
 .homepage {
   position: absolute;
-  top: 50%;
-  display: inline-block;
+  top: 40%;
 }
 
 footer{
@@ -93,7 +89,6 @@ footer{
 
 .img__wrap {
   position: relative;
-  display: inline-block;
   font-family: 'Dongle', sans-serif;
   font-size: 2rem;
   
@@ -130,14 +125,11 @@ footer{
 }
 
 .projects{
-  padding: auto;
-  margin: auto;
-  margin-top: 3%;
   margin-bottom: 3%;
 }
 
-.proh{
-  text-align: center;
+.proh, .contactMe{
+  margin-top: 4rem;
   margin-bottom: 3rem;
   font-size: 4rem;
   font-family: 'Nunito Sans', sans-serif;
@@ -164,10 +156,35 @@ footer{
 
 .aboutMe{
   font-family: 'Dongle', sans-serif ;
-  font-size: 2rem;
+  font-size: 2.26rem;
+  
 }
 
 .imgMe{
-  border-radius: 30%;
+  object-fit:cover;
+  border-radius: 4%;
+  margin-left:10%;
+  width: 30rem;
+  height: 35rem;
 }
 
+.me{
+  width: 40rem;
+  height: 40rem;
+}
+
+.about{
+  margin-top: 7%;
+  margin-bottom: 3%;
+}
+
+.contactMe, .submit, .emails, .names, .messages{
+  margin-left: 10%;
+  padding: 1rem;
+  margin-bottom: 5%;
+}
+
+.email, .name, .message{
+ display: inline-block;
+ width: 600px;
+}

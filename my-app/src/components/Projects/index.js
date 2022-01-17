@@ -41,10 +41,12 @@ function Projects() {
     ])
 
     return (
-        <div className="projects container card-deck">
+        <div className="container">
             <h2 className="proh">Projects</h2>
-            {projects.map((image) => (
-                    <div className="img__wrap col-6 card-block mx-auto">
+            <div className="projects row d-inline-flex">
+                <div className="flex-column ">
+                {projects.map((image) => (
+                    <div className="img__wrap col-6  mx-auto">
                         <img className="work card-block img__img" src={require(`../../assets/screenshots/${image.path}`)}
                             alt={image.name}
                             key={image.name}
@@ -55,7 +57,9 @@ function Projects() {
                             <a className="imglink" href={image.link}>Link!</a>
                         </div>
                     </div>
-            ))}
+                ))}
+            </div>
+            </div>
         </div>
     )
 

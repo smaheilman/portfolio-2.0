@@ -33,27 +33,24 @@ function ContactForm() {
     };
 
     return (
-        <section>
-            <h1>Contact Me</h1>
+        <section className='contact'>
+            <h1 className='contactMe'>Contact Me</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" name="name" onBlur={handleChange} defaultValue={name} />
+                <div className='names'>
+                    <input className='name' type="text" name="name" onBlur={handleChange} defaultValue={name} placeholder='Name'/>
                 </div>
-                <div>
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" name="email" onBlur={handleChange} defaultValue={email} />
+                <div className='emails'>
+                    <input className='email' type="email" name="email" onBlur={handleChange} defaultValue={email} placeholder='Email'/>
                 </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" rows="5" onBlur={handleChange} defaultValue={message} />
+                <div className='messages'>
+                    <textarea className='message' name="message" rows="5" onBlur={handleChange} defaultValue={message} placeholder='Message' />
                 </div>
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-                <button type="submit">Submit</button>
+                <button className='submit' type="submit">Submit</button>
             </form>
         </section>
     )
