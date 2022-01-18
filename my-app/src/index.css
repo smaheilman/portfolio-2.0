@@ -62,7 +62,7 @@ ul.navs.nav-tab {
 }
 
 .home{
-  font-size: 10rem;
+  font-size: 12rem;
   font-family: 'Nunito Sans', sans-serif;
   background-color: unset;
 }
@@ -71,15 +71,25 @@ ul.navs.nav-tab {
   background-color: unset;
 }
 
+.circle{
+  position: absolute;
+  border-radius: 50%;
+  height:500px;
+  width: 500px;
+  z-index: -1;
+  background: linear-gradient(0deg, rgba(180,58,110,1) 0%, rgba(253,29,102,1) 30%, rgba(252,154,69,1) 100%);
+}
+
 .homep {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   font-family: 'Nunito Sans', sans-serif;
   background-color: unset;
 }
 
 .homepage {
   position: absolute;
-  top: 40%;
+  top: 30%;
+  left: 27%;
   background-color: unset;
   
 }
@@ -223,16 +233,7 @@ footer{
 
 }
 
-.circle{
-  border-radius: 50%;
-  height:500px;
-  width: 500px;
-  z-index: -1;
-  margin-left: 10%;
-  margin-top: 10%;
-  background: linear-gradient(0deg, rgba(180,58,110,1) 0%, rgba(253,29,102,1) 30%, rgba(252,154,69,1) 100%);
-}
-
 .hub{
   background-color:#f00d46;
+  border-radius: 50%;
 }

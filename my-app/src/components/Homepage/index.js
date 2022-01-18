@@ -3,20 +3,19 @@ import React from "react";
 function Homepage() {
 
     return (
-    <div className="circle">
-        <div className="container homepage mx-5">
-            <div className="maybe row mx-5">
-                <div className="col-6 mx-auto">
-                    <h1 className="home">
-                        Hello!
-                    </h1>
-                    <p className="homep">
-                        My name is Samantha and I am a web developer.
-                    </p>
-                </div>
+            <div className="container homepage mx-5">
+                <div className="maybe row">
+                    <div className="circle col-5 "></div>
+                    <div className="col-7 mx-auto hwords">
+                        <h1 className="home">
+                            Hello!
+                        </h1>
+                        <p className="homep">
+                            My name is Samantha and I am a web developer.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
     )
 
 }
