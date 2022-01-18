@@ -5,6 +5,9 @@ function Footer() {
     return (
         <footer>
             <p className="copy">&copy;SamH</p>
+            <a className="hub media" href="https://github.com/smaheilman">
+            <img src={require(`../../assets/icons/github.png`)} alt="hub-icon"></img>
+            </a>
             <a className="media" href="https://twitter.com/smaheilman">
                     <img src={require(`../../assets/icons/connection.png`)} alt="twitter-icon"></img>
             </a>

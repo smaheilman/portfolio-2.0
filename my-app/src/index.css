@@ -232,3 +232,7 @@ footer{
   margin-top: 10%;
   background: linear-gradient(0deg, rgba(180,58,110,1) 0%, rgba(253,29,102,1) 30%, rgba(252,154,69,1) 100%);
 }
+
+.hub{
+  background-color:#f00d46;
+}
