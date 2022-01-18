@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dongle:wght@300&family=Nunito+Sans:wght@200&family=The+Nautigal&display=swap');
 
 * {
-  background-color: black;
   color: white;
   padding: 0;
   margin: 0;
 }
 
+main{
+  background-color: black;
+}
+
 html, body{
   min-height: 100%;
-}
+  background-color: black;
+} 
 
 .sam{
   background-image: linear-gradient( 0deg, #f00d46,  rgb(255, 238, 1));
@@ -24,6 +28,7 @@ html, body{
 header {
   margin-left: 1rem;
   justify-content: space-evenly;
+  background-color: unset;
 }
 
 a.nav-link{
@@ -59,16 +64,24 @@ ul.navs.nav-tab {
 .home{
   font-size: 10rem;
   font-family: 'Nunito Sans', sans-serif;
+  background-color: unset;
+}
+
+.maybe{
+  background-color: unset;
 }
 
 .homep {
   font-size: 1.5rem;
   font-family: 'Nunito Sans', sans-serif;
+  background-color: unset;
 }
 
 .homepage {
   position: absolute;
   top: 40%;
+  background-color: unset;
+  
 }
 
 footer{
@@ -76,7 +89,19 @@ footer{
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 2.5rem;
+  height: 5rem;
+  align-items: center;
+  padding: auto;
+}
+
+.copy{
+ padding-top: 2%;
+  display: inline-block;
+}
+
+.media{
+  float: right;
+  padding: 5px;
 }
 
 .card-block{
@@ -88,6 +113,7 @@ footer{
 }
 
 .img__wrap {
+  display: inline-block;
   position: relative;
   font-family: 'Dongle', sans-serif;
   font-size: 2rem;
@@ -187,4 +213,22 @@ footer{
 .email, .name, .message{
  display: inline-block;
  width: 600px;
+ border-radius: 3px;
+}
+
+.submit{
+  width: 500px;
+  border-radius: 10px;
+  background-color: #f00d46;
+
+}
+
+.circle{
+  border-radius: 50%;
+  height:500px;
+  width: 500px;
+  z-index: -1;
+  margin-left: 10%;
+  margin-top: 10%;
+  background: linear-gradient(0deg, rgba(180,58,110,1) 0%, rgba(253,29,102,1) 30%, rgba(252,154,69,1) 100%);
 }
