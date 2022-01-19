@@ -54,7 +54,15 @@ function Projects() {
 
     return (
         <div className="projects container ">
-            <h2 className="proh">Projects</h2>
+            <h2 className="proh">
+                Projects
+                <span className="resume">
+                    <a className='resLink' href={require(`../../assets/sheilmanResume.pdf`)}>
+                        <img src={require(`../../assets/icons/resume.png`)} alt='resume icon'></img>
+                        Resume
+                    </a>
+                </span>
+            </h2>
             <div className="d-inline-flex justify-content-around">
                 <div className="flex-column">
                 {projects.map((image) => (

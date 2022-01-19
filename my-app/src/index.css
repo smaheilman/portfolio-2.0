@@ -71,6 +71,10 @@ ul.navs.nav-tab {
   background-color: unset;
 }
 
+.hwords{
+  padding-top: 6%;
+}
+
 .circle{
   position: absolute;
   border-radius: 50%;
@@ -236,4 +240,16 @@ footer{
 .hub{
   background-color:#f00d46;
   border-radius: 50%;
+}
+
+.resume{
+  font-family: 'Dongle', sans-serif;
+  font-size: 4rem;
+  padding-left: 50%;
+}
+
+.resLink{
+  color: unset;
+  background-color: unset;
+  text-decoration: none;
 }
