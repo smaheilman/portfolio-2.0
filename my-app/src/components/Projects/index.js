@@ -43,12 +43,12 @@ function Projects() {
             tech: 'javascript, html, css'
         },
         {
-            name: 'Budget Tracker',
-            path: 'budget-tracker-screenshot.jpg',
-            link: 'https://peaceful-savannah-76507.herokuapp.com/',
-            github: 'https://github.com/smaheilman/budget-tracker',
-            description: 'Keeps track of you incoming and out going expenses.',
-            tech: 'javascript, html, css, mongodb, mongoose, heroku, node'
+            name: 'Imperium',
+            path: 'Imperium_Screenshot.png',
+            link: 'https://imperium10.herokuapp.com/',
+            github: 'https://github.com/smaheilman/project-3',
+            description: 'Used to help small contractors find clients and bid on projects.',
+            tech: 'javascript, html, css, mongodb, mongoose, heroku, node, react'
         }
     ])
 
