@@ -228,7 +228,9 @@ footer{
  display: inline-block;
  width: 600px;
  border-radius: 3px;
- color: black;
+
+ color: white;
+ background-color: black;
 }
 
 .submit{
