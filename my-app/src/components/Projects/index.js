@@ -57,7 +57,7 @@ function Projects() {
             <h2 className="proh">
                 Projects
                 <span className="resume">
-                    <a className='resLink' href={require(`../../assets/SamHeilmanResx.pdf`)}>
+                    <a className='resLink' href={require(`../../assets/SamanthaHeilmanResume.pdf`)}>
                         <img src={require(`../../assets/icons/resume.png`)} alt='resume icon'></img>
                         Resume
                     </a>
