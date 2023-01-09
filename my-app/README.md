@@ -4,7 +4,7 @@
 My portfolio updated using react
 
 ## Website
-Heroku: https://fathomless-lowlands-45683.herokuapp.com/
+Heroku: https://samantha-heilman.herokuapp.com/
 gitHub: https://smaheilman.github.io/portfolio-2.0/
 
 ## Screenshot
