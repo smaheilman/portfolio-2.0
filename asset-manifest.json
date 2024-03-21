@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio-2.0/static/css/main.c11ad057.css",
+    "main.js": "/portfolio-2.0/static/js/main.d964f6a8.js",
+    "static/js/787.edd59a96.chunk.js": "/portfolio-2.0/static/js/787.edd59a96.chunk.js",
+    "static/media/Screenshot_20221231_122525.png": "/portfolio-2.0/static/media/Screenshot_20221231_122525.5337e5f9b0ec35de23a9.png",
+    "static/media/Movie-generator-screenshot.jpg": "/portfolio-2.0/static/media/Movie-generator-screenshot.c3e2178fe0bc58d458a4.jpg",
+    "static/media/Sam.jpg": "/portfolio-2.0/static/media/Sam.dca9814a908242ce6d04.jpg",
+    "static/media/Imperium_Screenshot.png": "/portfolio-2.0/static/media/Imperium_Screenshot.c5513bf39fe1a8e221b6.png",
+    "static/media/Screenshot_20221108_104300.png": "/portfolio-2.0/static/media/Screenshot_20221108_104300.97a590a3e517e0bc3fe1.png",
+    "static/media/SamanthaHeilmanResume.pdf": "/portfolio-2.0/static/media/SamanthaHeilmanResume.516e24a42b4e278504d9.pdf",
+    "static/media/weather-app-screenshot.jpg": "/portfolio-2.0/static/media/weather-app-screenshot.8dba7755aa0af3e9de92.jpg",
+    "static/media/schedule-app-screenshot.jpg": "/portfolio-2.0/static/media/schedule-app-screenshot.c4f2b5ffee6fa1410e49.jpg",
+    "static/media/budget-buddy-screenshot.jpg": "/portfolio-2.0/static/media/budget-buddy-screenshot.5fd6e108a51003be93bd.jpg",
+    "static/media/budget-tracker-screenshot.jpg": "/portfolio-2.0/static/media/budget-tracker-screenshot.efb08f2788b25f78803b.jpg",
+    "static/media/quiz-screenshot.jpg": "/portfolio-2.0/static/media/quiz-screenshot.bf6dfb29e91123841cb4.jpg",
+    "index.html": "/portfolio-2.0/index.html",
+    "main.c11ad057.css.map": "/portfolio-2.0/static/css/main.c11ad057.css.map",
+    "main.d964f6a8.js.map": "/portfolio-2.0/static/js/main.d964f6a8.js.map",
+    "787.edd59a96.chunk.js.map": "/portfolio-2.0/static/js/787.edd59a96.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c11ad057.css",
+    "static/js/main.d964f6a8.js"
+  ]
+}
