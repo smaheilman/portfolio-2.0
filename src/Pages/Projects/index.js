@@ -66,7 +66,7 @@ function Projects() {
             href={require(`../../assets/SamanthaHeilmanResume.pdf`)}
           >
             <img
-              src={require(`../../assets/icons/resume.png`)}
+              src={require(`../../assets/resume.png`)}
               alt="Resume-Icon"
             ></img>
             Resume
@@ -76,10 +76,10 @@ function Projects() {
       <div className="Projects-Wrapper">
         <div className="Projects-Sub-Wrapper">
           {projects.map((image) => (
-            <div className="Projects-Image-Wrapper">
+            <div className="Projects-Image-Wrapper" tabindex="0">
               <img
                 className="Projects-Image"
-                src={require(`../../assets/screenshots/${image.path}`)}
+                src={require(`../../assets/${image.path}`)}
                 alt={image.name}
                 key={image.name}
               />
@@ -87,12 +87,16 @@ function Projects() {
                 <h3 className="Projects-Name">{image.name}</h3>
                 <p className="Projects-Description">{image.description}</p>
                 <div className="Projects-Links-Wrapper">
-                  <a className="Projects-Link" href={image.link}>
+                  <a className="Projects-Link" href={image.link} tabindex="0">
                     Link!
                   </a>
-                  <a className="Projects-Github" href={image.github}>
+                  <a
+                    className="Projects-Github"
+                    href={image.github}
+                    tabindex="0"
+                  >
                     <img
-                      src={require(`../../assets/icons/github.png`)}
+                      src={require(`../../assets/github.png`)}
                       alt="github icon"
                     ></img>
                   </a>
