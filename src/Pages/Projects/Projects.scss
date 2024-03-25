@@ -16,6 +16,9 @@
         }
     }
     &-Header{
+        .Projects-Heading{
+            font-size: 3rem;
+        }
         .Resume{
             display: block;
             margin-top: 2.5rem;
@@ -47,11 +50,11 @@
             justify-content: center;
             margin-bottom: 2.5rem;
             @media (min-width: 800px){
-                display: inline-block;
+                // display: inline-block;
                 position: relative;
                 font-family: 'Dongle', sans-serif;
                 font-size: 2rem;
-                &:hover .Projects-Image-Description{
+                &:hover .Projects-Image-Description, &:focus .Projects-Image-Description{
                     visibility: visible;
                     opacity: 1;
                 }
@@ -60,7 +63,7 @@
         &-Description{
             @media (min-width: 800px){
                 position: absolute;
-                top: 0;
+                top: -1.25rem;
                 bottom: 0;
                 left: 0;
                 right: 0;
@@ -87,7 +90,7 @@
             padding: 0.25rem;
             filter: invert(1);
             margin-left: 2rem;
-            &:hover{
+            &:hover, &:focus{
                 background-color: purple;
                 filter: invert(0);
             }

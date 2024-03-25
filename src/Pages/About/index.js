@@ -16,7 +16,7 @@ function About() {
       <img
         className="About-Image"
         width="25%"
-        src={require(`../../assets/img/Sam.jpg`)}
+        src={require(`../../assets/Sam.jpg`)}
         alt="me"
       ></img>
     </section>

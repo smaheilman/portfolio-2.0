@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ReactComponent as MenuIcon } from "../../assets/icons/mobile-menu-icon.svg";
+import { ReactComponent as MenuIcon } from "../../assets/mobile-menu-icon.svg";
 //import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav(props) {
