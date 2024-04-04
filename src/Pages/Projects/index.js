@@ -75,8 +75,8 @@ function Projects() {
       </div>
       <div className="Projects-Wrapper">
         <div className="Projects-Sub-Wrapper">
-          {projects.map((image) => (
-            <div className="Projects-Image-Wrapper" tabindex="0">
+          {projects.map((image, index) => (
+            <div className="Projects-Image-Wrapper" tabIndex="0" key={index}>
               <img
                 className="Projects-Image"
                 src={require(`../../assets/${image.path}`)}
@@ -87,13 +87,13 @@ function Projects() {
                 <h3 className="Projects-Name">{image.name}</h3>
                 <p className="Projects-Description">{image.description}</p>
                 <div className="Projects-Links-Wrapper">
-                  <a className="Projects-Link" href={image.link} tabindex="0">
+                  <a className="Projects-Link" href={image.link} tabIndex="0">
                     Link!
                   </a>
                   <a
                     className="Projects-Github"
                     href={image.github}
-                    tabindex="0"
+                    tabIndex="0"
                   >
                     <img
                       src={require(`../../assets/github.png`)}
