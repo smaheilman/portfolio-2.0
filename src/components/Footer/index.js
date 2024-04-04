@@ -9,7 +9,7 @@ function Footer() {
           <img src={require(`../../assets/github.png`)} alt="hub-icon"></img>
         </a>
         <a
-          className="Footer-Link Twitter."
+          className="Footer-Link Twitter"
           href="https://twitter.com/smaheilman"
         >
           <img

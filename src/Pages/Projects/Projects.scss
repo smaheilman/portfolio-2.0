@@ -4,9 +4,6 @@
         display: flex;
         flex-direction: column;
         margin-bottom: 5rem;
-        @media (min-width: 800px){
-            margin-bottom: 3%;
-        }
     }
     &-Sub-Wrapper{
         @media (min-width: 800px){

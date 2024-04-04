@@ -1,8 +1,6 @@
 .Home{
     &-Container{
-        height: calc(100vh - 3.5rem);
         display: flex;
-        padding-top: 50%;
         z-index: 0;
         width: 100%;
         @media (min-width: 800px){
@@ -11,13 +9,14 @@
             top: 0%;
             left: 15%;
             background-color: unset;
+            height: calc(100vh - 3.5rem);
         }
     }
     &-Wrapper{
-        width: 100%;
         position: absolute;
         top: 30%;
         display: flex;
+        padding-right: 1rem;
     }
     &-Inner-Wrapper{
         @media (min-width: 800px){
@@ -26,7 +25,8 @@
             flex-direction: column;
             height: 500px;
             justify-content: center;
-            margin-left: 10%;
+            margin-left: 9rem;
+            margin-right: 9rem;
         }
     }
     &-Heading{

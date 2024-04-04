@@ -29,7 +29,7 @@ module.exports = {
               name: "[name].[ext]",
               outputPath: "assets/",
               esModule: false,
-              // publicPath: "assets/",
+              publicPath: "assets/",
             },
           },
         ],
